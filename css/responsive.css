@@ -1,0 +1,41 @@
+@media screen  and (max-width:768px){
+    .navbar__nav i{
+        display: block;
+        margin-right: 10px;
+      }
+      .navbar__nav a{
+        display: none;
+      }
+      .header{
+        width: 100%;
+        height: 100vh;
+        background-image: url('/img/bgi1.jpg');
+        background-size: 50% 50%;
+    
+    }
+      .banner{
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 20%;
+    }
+    .svet__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+       }
+       .gaz__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 5rem;
+        height: 100%;
+        margin-top: 2rem;
+    }
+    .contact__content{
+        display: grid;
+        grid-template-columns: 98%;
+        gap: 3rem;
+        margin-top: 3rem;
+        margin-left: 1%;
+
+      }
+}
